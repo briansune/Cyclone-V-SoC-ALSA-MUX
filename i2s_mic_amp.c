@@ -95,7 +95,7 @@ static int oc_i2s_card_probe(struct platform_device *pdev)
 	links[0].capture_only = false;
 	links[0].dai_fmt = SND_SOC_DAIFMT_I2S |
 			   SND_SOC_DAIFMT_NB_NF |
-			   SND_SOC_DAIFMT_CBS_CFS;
+			   SND_SOC_DAIFMT_CBC_CFC;
 
 	/* Capture link (link 1) */
 	links[1].name = "I2S-Capture";
@@ -111,7 +111,7 @@ static int oc_i2s_card_probe(struct platform_device *pdev)
 	links[1].capture_only = true;
 	links[1].dai_fmt = SND_SOC_DAIFMT_I2S |
 			   SND_SOC_DAIFMT_NB_NF |
-			   SND_SOC_DAIFMT_CBS_CFS;
+			   SND_SOC_DAIFMT_CBC_CFC;
 
 	mach->card.dai_link = links;
 	mach->card.num_links = ARRAY_SIZE(mach->dai_links);
