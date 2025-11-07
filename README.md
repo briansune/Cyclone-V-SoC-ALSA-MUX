@@ -1,5 +1,13 @@
 # Cyclone V SoC ALSA MUX
 
+## If this project is constructive, welcome to donate a drink to PayPal.
+
+<img src="images/qrcode.png" style="height:20%; width:20%">
+
+or 
+
+paypal.me/briansune
+
 # Introduction
 
 This project aim to support split capture and playback devices when utilizing this [ALSA driver](https://github.com/briansune/Cyclone-V-SoC-ALSA).
